@@ -1,0 +1,114 @@
+*{
+  font-family:'Roboto', sans-serif;
+}
+/*COR DO NAVBAR*/
+.navbar-default {
+  background-color: #0068ba;
+  border-color: #ffffff;
+  font-size: 18px;
+
+
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 25px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #828283;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #828283;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #828283;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #828283;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #828283;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #828283;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #828283;
+    background-color: #ffffff;
+  }
+}
+
+
+.container{
+  margin-top: 1px;
+
+}
+.nav{
+  font-size: 15px;
+  margin-left: 10px;
+
+}
+.navbar-text{
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.bloco-titulo{
+   width: 950px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+
+
+}
+.bloco{
+   padding-bottom: 15px;
+   width: 1000px;
+   background-color: whitesmoke;
+   border: 5px 5px 5px 5px  #888;
+   border-radius: 5px;
+   box-shadow: 0px 0px 20px #666;
+}
+.botao{
+  width: 40%;
+}
+.tabled{
+  margin-top: 12px;
+}
